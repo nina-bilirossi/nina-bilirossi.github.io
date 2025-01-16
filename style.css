@@ -1,8 +1,33 @@
+@font-face {
+  font-family: 'MyHands';
+  src: url('MyHands-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: 'Courier New', monospace;
+    background-color: #292d52; /* Dark blue color as fallback */
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'MyHands', sans-serif;
+    font-size: 40pt;
+    text-align: center; /* Centers the title */
+    margin: 0; /* Removes extra margin */
+    line-height: 1.2; /* Adjusts spacing between title and subtitle */
+    margin-top: 50vh
+}
+
+.subtitle {
+    font-family: 'MyHands', sans-serif; /* Matches the title font */
+    font-size: 18pt; /* Smaller font size for the subtitle */
+    text-align: center; /* Center-aligns the subtitle */
+    margin: 0; /* Removes unnecessary spacing */
+    margin-top: 10px; /* Adds space between title and subtitle */
 }
 
 header {
@@ -38,4 +63,25 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.centered-text {
+    text-align: left; /* Centers text horizontally */
+    display:inline-block;
+    padding: 30%;
+}
+.centered-vertically {
+    display: flex;       /* Enables flexbox layout */
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;       /* Full height of the viewport */
+}
+
+.cool {
+    max-width: 40%; /* Ensures the image doesn't overflow its container */
+    display: block; /* Makes the image behave as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Adds space above the image */
+    border-radius: 100px;
 }
