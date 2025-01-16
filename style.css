@@ -19,7 +19,8 @@ h1 {
     text-align: center; /* Centers the title */
     margin: 0; /* Removes extra margin */
     line-height: 1.2; /* Adjusts spacing between title and subtitle */
-    margin-top: 50vh
+    margin-top: 50vh;
+    margin-bottom: 50vh;
 }
 
 .subtitle {
@@ -68,7 +69,7 @@ footer {
 .centered-text {
     text-align: left; /* Centers text horizontally */
     display:inline-block;
-    padding: 30%;
+    padding: 10%;
 }
 .centered-vertically {
     display: flex;       /* Enables flexbox layout */
@@ -78,7 +79,7 @@ footer {
 }
 
 .cool {
-    max-width: 40%; /* Ensures the image doesn't overflow its container */
+    max-width: 70%; /* Ensures the image doesn't overflow its container */
     display: block; /* Makes the image behave as a block element */
     margin: 0 auto; /* Centers the image horizontally */
     height: auto; /* Maintain aspect ratio */
