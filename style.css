@@ -7,10 +7,10 @@
 
 body {
     font-family: 'Courier New', monospace;
-    background-color: #292d52; /* Dark blue color as fallback */
-    height: 100vh;
+    background-color: #B8C480;
+    height: 110vh;
     margin: 0;
-    color: white;
+    color: #922D50;
 }
 
 h1 {
@@ -69,13 +69,14 @@ footer {
 .centered-text {
     text-align: left; /* Centers text horizontally */
     display:inline-block;
-    padding: 10%;
+    padding: 20%;
+    height: 120vh;
 }
 .centered-vertically {
     display: flex;       /* Enables flexbox layout */
     justify-content: center; /* Centers horizontally */
     align-items: center;    /* Centers vertically */
-    height: 100vh;       /* Full height of the viewport */
+    height: 110vh;       /* Full height of the viewport */
 }
 
 .cool {
@@ -85,4 +86,14 @@ footer {
     height: auto; /* Maintain aspect ratio */
     margin-top: 20px; /* Adds space above the image */
     border-radius: 100px;
+}
+
+.video-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.coolvideo {
+    max-width: 100%;
+    display: inline-block;
 }
