@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 60px 20px;
+    background: #B8C480;
+    color: #922D50;
+    font-family: "Courier New", monospace;
+    cursor: url("fish.png") 5 20, pointer;
+}
+
+@font-face {
+    font-family: "MyHands";
+    src: url("MyHands-Regular.otf") format("opentype");
+}
+
+h1 {
+    font-family: "MyHands", sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-family: "MyHands", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 28px;
+    border: 2px solid #922D50;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-family: "MyHands", sans-serif;
+    font-weight: normal;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-5px);
+}
+
+a {
+    color: #922D50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: url("fish2.png") 5 20, pointer;
+}
+
+.card + .card {
+    margin-top: 30px;
+}
+
+.links {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.links li {
+    margin: 10px 0;
+}
