@@ -48,7 +48,7 @@ h3 {
     transform: translateY(-5px);
 }
 
-a,b {
+a{
     color: #922D50;
     text-decoration: none;
     font-weight: bold;
@@ -59,12 +59,15 @@ a:hover {
     cursor: url("fish2.png") 5 20, pointer;
 }
 
-b:hover {
+.coolors:hover {
     color: #B8C480;
     background: #2E5339;
     text-decoration: underline;
     cursor: url("fish2.png") 5 20, pointer;
 }
+
+
+
 .card + .card {
     margin-top: 30px;
 }
