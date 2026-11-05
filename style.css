@@ -82,8 +82,8 @@ a:hover {
 }
 
 summary {
-    cursor: pointer;
     list-style: none;      /* hides the triangle in most browsers */
+    font-weight: bold;
 }
 summary::-webkit-details-marker {
     display: none;         /* hides it in Safari */
