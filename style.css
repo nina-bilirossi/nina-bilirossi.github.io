@@ -80,3 +80,14 @@ a:hover {
 .links li {
     margin: 10px 0;
 }
+
+summary {
+    cursor: pointer;
+    list-style: none;      /* hides the triangle in most browsers */
+}
+summary::-webkit-details-marker {
+    display: none;         /* hides it in Safari */
+}
+summary:hover {
+    text-decoration: underline;
+}
